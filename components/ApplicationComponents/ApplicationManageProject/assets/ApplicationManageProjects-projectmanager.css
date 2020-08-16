@@ -1,0 +1,53 @@
+.ProjectManager-main {
+    width: 100%;
+    display: flex;
+}
+
+.ProjectManager-contentcontainer {
+    display: flex;
+    flex-grow: 1;
+    height: 100vh;
+}
+
+.ProjectManager-container {
+    width: 30vw;
+    margin: 0 auto;
+}
+
+.ProjectManager-managercontainer {
+    width: 100%;
+    margin-top: 10vh;
+}
+
+.ProjectManager-buttoncontainer {
+    width: 100%;
+}
+
+.ProjectManager-shopbutton {
+    background-color: #F9C11D;
+    font-size: 2.5vh;
+    color: white;
+    padding: 1vh;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+}
+
+.ProjectManager-shopbutton:hover {
+    background-color: #dbaa1a;
+}
+
+.ProjectManager-projectname {
+    font-size: 2.5vh;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+    background-color: lightgray;
+    padding: 1vh;
+    border-radius: 1vh;
+}
+
+.ProjectManager-deploycontainer {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}

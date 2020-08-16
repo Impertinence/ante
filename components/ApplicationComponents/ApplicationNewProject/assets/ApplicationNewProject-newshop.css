@@ -1,0 +1,9 @@
+.ApplicationNewShop-main {
+    width: 100%;
+}
+
+.ApplicationNewProject-header {
+    font-size: 3vh;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}

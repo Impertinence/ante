@@ -1,0 +1,16 @@
+.HomeBuildDescription-container {
+    width: 100%;
+    margin-top: 10vh
+}
+
+.HomeBuildDescription-descriptioncontainer {
+    width: 50%;
+}
+
+.HomeBuildDescription-descriptionheader {
+    font-size: 3vh;
+}
+
+.HomeBuildDescription-description {
+    font-size: 2vh;
+}

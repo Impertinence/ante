@@ -1,0 +1,62 @@
+.ApplicationNewProject-main {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.ApplicationNewProject-contentcontainer {
+    height: 100vh;
+    display: inline-block;
+    vertical-align: top;
+    flex-grow: 1;
+}
+
+.ApplicationNewProject-projectscontainer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ApplicationNewProject-header {
+    font-size: 3vh;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+.ApplicationNewProject-description {
+    font-size: 2vh;
+    font-family: 'Roboto', sans-serif;
+    color: #2C2F33;
+    user-select: none;
+}
+
+.ApplicationNewProject-container {
+    margin-top: 10vh;
+}
+
+.ApplicationNewProject-typescontainer {
+    width: 100%;
+    margin-top: 3vh;
+}
+
+.ApplicationNewProject-projecttype {
+    border: none;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 1vh;
+    color: white;
+    font-size: 10vh;
+    cursor: pointer;
+}
+
+.ApplicationNewProject-projecttypecontainer {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.ApplicationNewProject-type {
+    font-size: 2vh;
+    font-family: 'Roboto', sans-serif;
+}

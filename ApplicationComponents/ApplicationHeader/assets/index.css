@@ -1,0 +1,109 @@
+.ApplicationHeader-barcontainer {
+    width: 12.5%;
+    padding: 1vw;
+    height: 100vh;
+    background-color: #23272A;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ApplicationHeader-barinner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.ApplicationHeader-button {
+    width: 95%;
+    text-align: left;
+    display: block;
+    margin-top: 1vh;
+    font-size: 2vh;
+    color: black;
+    text-decoration: none;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 1vh;
+    color: white;
+    padding-left: 1vh;
+    user-select: none;
+    cursor: pointer;
+}
+
+.ApplicationHeader-button:hover {
+    background-color: #2C2F33;
+}
+
+.ApplicationHeader-buttonselected {
+    width: 95%;
+    text-align: left;
+    display: block;
+    margin-top: 1vh;
+    font-size: 2vh;
+    text-decoration: none;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 1vh;
+    color: white;
+    padding-left: 1vh;
+    user-select: none;
+    background-color: #99AAB5;
+}
+
+.ApplicationHeader-buttoncontainer {
+    flex-grow: 1;
+}
+
+.ApplicationHeader-categoryheader {
+    color: #7289DA;
+    font-size: 2vh;
+    user-select: none;
+    display: block;
+    margin-top: 1vh;
+}
+
+.ApplicationHeader-accountcontainer {
+    text-align: left;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 2vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    outline: none;
+    cursor: pointer;
+}
+
+.ApplicationHeader-accountcontainer:hover {
+    background-color: #2C2F33;
+}
+
+.ApplicationHeader-accountimage {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ApplicationHeader-accountinfocontainer {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ApplicationHeader-accountinfousername {
+    margin-left: 0.5vw;
+    color: white;
+    font-size: 2vh;
+}
+
+.ApplicationHeader-teamscontainer {
+    width: 100%;
+    height: 47vh;
+    overflow-y: auto;
+}
+
+.ApplicationHeader-teamscontainer::-webkit-scrollbar {
+    width: 10px;
+}

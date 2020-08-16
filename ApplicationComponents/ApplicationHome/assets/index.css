@@ -1,0 +1,176 @@
+.ApplicationHome-main {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.ApplicationHome-contentcontainer {
+    height: 100vh;
+    width: 57vw;
+    float: right;
+    position: relative;
+}
+
+.ApplicationHome-homecontainer {
+    width: 33vw;
+    margin-top: 10vh;
+}
+
+.ApplicationHome-windownotification {
+    width: 100vw;
+    padding: 1vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ApplicationHome-getstartedheader {
+    font-size: 2.5vh;
+    font-family: 'Roboto', sans-serif;
+    color: #2C2F33;
+    user-select: none;
+}
+
+.ApplicationHome-searchbar {
+    width: 75%;
+    font-size: 3vh;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ApplicationHome-searchbar::placeholder {
+    color: lightgray;
+}
+
+.ApplicationHome-noresults {
+    width: 15vw;
+    opacity: 0.75;
+}
+
+.ApplicationHome-noresultsheader {
+    font-size: 2vh;
+    color: #99AAB5;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+.ApplicationHome-searchresults {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.ApplicationHome-newprojectcontainer {
+    width: 100%;
+    text-align: center;
+}
+
+.ApplicationHome-rocketillustration {
+    width: 10vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ApplicationHome-rockettextcontainer {
+    display: Inline-block;
+    vertical-align: middle;
+    margin-left: 1vw;
+}
+
+.ApplicationHome-rockettextheader {
+    font-size: 2vh;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+.ApplicationHome-createbutton {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #7289DA;
+    text-decoration: none;
+    padding: 1vh;
+    display: inline-block;
+    font-size: 1.5vh;
+    user-select: none;
+    border-radius: 0.5vh;
+}
+
+.ApplicationHome-createbutton:hover {
+    background-color: #6478bd;
+}
+
+.ApplicationHome-rocketbuttoncontainer {
+    margin-top: 3vh;
+}
+
+.ApplicationHome-linkbutton {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 1vh;
+    background-color: #0ad48b;
+    border: none;
+    margin-right: 1vw;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 5vh;
+    color: white;
+}
+
+.ApplicationHome-shopbutton {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 1vh;
+    background-color: #F9C11D;
+    border: none;
+    margin-right: 1vw;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 5vh;
+    color: white;
+}
+
+.ApplicationHome-portfoliobutton {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 1vh;
+    background-color: #7289DA;
+    border: none;
+    margin-right: 1vw;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 5vh;
+    color: white;
+}
+
+.ApplicationHome-getstartedheader {
+    font-size: 2.5vh;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ApplicaitonHome-buttondescription {
+    font-size: 2vh;
+}
+
+.ApplicationHome-updatescontainer {
+    width: 100%;
+    margin-top: 3vh;
+}
+
+.ApplicationHome-search {
+    font-size: 3vh;
+    border: none;
+    background-color: transparent;
+    color: gray;
+    outline: none;
+    margin-left: 0.5vw;
+}
+
+.ApplicationHome-search::placeholder {
+    color: lightgray;
+}

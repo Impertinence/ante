@@ -1,0 +1,32 @@
+.DesignFrameHeader-main {
+    width: 100vw;
+    padding: 1vh;
+    background-color: #7289DA;
+    text-align: center;
+}
+
+.DesignFrameHeader-backbutton {
+    font-size: 3vh;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1vh;
+    border-radius: 1vh;
+    float: left;
+}
+
+.DesignFrameHeader-backbutton:hover {
+    background-color: white;
+    color: #7289DA;
+}
+
+.DesignFrameHeader-projectname {
+    font-size: 3vh;
+    padding: 1vh;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+}
